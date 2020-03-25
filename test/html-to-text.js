@@ -580,6 +580,11 @@ describe('html-to-text', function() {
 
       expect(htmlToText.fromString(testString, options)).to.equal('This text contains superscript text.');
     });
+
+    it('should treat &nbsp; as a whitespace', function() {
+      var testString = 'foo<span>&nbsp;</span>bar';
+      expect(htmlToText.fromString(testString)).to.equal('foo bar');
+    });
   });
 
   describe('wbr', function() {
