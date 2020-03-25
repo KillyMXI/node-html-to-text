@@ -24,9 +24,9 @@
   },
   "dependencies": {
     "he": "^1.2.0",
-    "htmlparser2": "^3.10.1",
-    "minimist": "^1.2.0",
-    "lodash": "^4.17.11"
+    "htmlparser2": "^4.1.0",
+    "minimist": "^1.2.5",
+    "lodash": "^4.17.15"
   },
   "keywords": [
     "html",
@@ -44,8 +44,8 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^5.15.3",
+    "eslint": "^6.8.0",
     "nyc": "^15.0.0",
-    "mocha": "^6.0.2"
+    "mocha": "^7.1.1"
   }
 }
