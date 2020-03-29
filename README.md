@@ -1,9 +1,28 @@
 # html-to-text
 
-[![Build Status](https://travis-ci.org/werk85/node-html-to-text.svg?branch=master)](https://travis-ci.org/werk85/node-html-to-text)
-[![Test Coverage](https://codeclimate.com/github/werk85/node-html-to-text/badges/coverage.svg)](https://codeclimate.com/github/werk85/node-html-to-text/coverage)
-
 An advanced converter that parses HTML and returns beautiful text. It was mainly designed to transform HTML E-Mail templates to a text representation. So it is currently optimized for table layouts.
+
+## The fork
+
+This fork is made as a temporary measure to include security and formatting fixes from well-formed PRs to the original repo.
+
+This repo and NPM package:
+
+* <https://github.com/KillyMXI/node-html-to-text>
+* <https://www.npmjs.com/package/@mxiii/html-to-text>
+* `npm install @mxiii/html-to-text`
+
+Original repo and NPM package:
+
+* <https://github.com/werk85/node-html-to-text>
+* <https://www.npmjs.com/package/html-to-text>
+* `npm install html-to-text`
+
+In case original package will come back to life - this one will be deprecated.
+
+Below is untouched original readme.
+
+----
 
 ### Features:
 
@@ -255,12 +274,12 @@ takimata sanctus est Lorem ipsum dolor sit amet.
 --------------------------------------------------------------------------------
 
 PRETTY PRINTED TABLE
-ARTICLE                  PRICE   TAXES             AMOUNT   TOTAL   
-Product 1                6,99€   7%                1        6,99€   
-Contains: 1x Product 1                                              
-Shipment costs           3,25€   7%                1        3,25€   
-                                 to pay: 10,24€                     
-                                 Taxes 7%: 0,72€                    
+ARTICLE                  PRICE   TAXES             AMOUNT   TOTAL
+Product 1                6,99€   7%                1        6,99€
+Contains: 1x Product 1
+Shipment costs           3,25€   7%                1        3,25€
+                                 to pay: 10,24€
+                                 Taxes 7%: 0,72€
 
 --------------------------------------------------------------------------------
 
@@ -278,11 +297,11 @@ LISTS
 --------------------------------------------------------------------------------
 
 COLUMN LAYOUT WITH TABLES
-INVOICE ADDRESS          SHIPMENT ADDRESS         
-Mr.                      Mr.                      
-John Doe                 John Doe                 
-Featherstone Street 49   Featherstone Street 49   
-28199 Bremen             28199 Bremen             
+INVOICE ADDRESS          SHIPMENT ADDRESS
+Mr.                      Mr.
+John Doe                 John Doe
+Featherstone Street 49   Featherstone Street 49
+28199 Bremen             28199 Bremen
 
 --------------------------------------------------------------------------------
 

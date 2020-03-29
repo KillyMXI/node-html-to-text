@@ -1,5 +1,17 @@
 # Changelog
 
+## (Fork) Version 5.2.1
+
+* Updated outdated dependencies
+* Replaced istanbul with nyc
+* Made cli tests work on Windows
+* Support for custom formatters - merged [#154](https://github.com/werk85/node-html-to-text/pull/154)
+* Support for colspans - merged [#155](https://github.com/werk85/node-html-to-text/pull/155)
+* Fixed `&nbsp;` handling - cherry-picked [#161](https://github.com/werk85/node-html-to-text/pull/161)
+* Fixed ol, li parsing when line break is present - merged [#165](https://github.com/werk85/node-html-to-text/pull/165)
+* Fixed ol formatting - merged [#191](https://github.com/werk85/node-html-to-text/pull/191)
+* Support multiline blockquote - merged [#193](https://github.com/werk85/node-html-to-text/pull/193)
+
 ## Version 5.1.1
 
 * `preserveNewLines` whitespace issue fixed [#162](https://github.com/werk85/node-html-to-text/pull/162)
