@@ -3,8 +3,13 @@ var fs = require('fs');
 
 var exec = require('child_process').exec;
 
+var isWin = process.platform === "win32";
+
 function runWithInputAndExpect(input, args, expectedOutput, done) {
-  exec('echo "' + input.replace(/"/g, '\\"') + '" | node bin/cli.js ' + args, function callback(error, stdout, stderr) {
+  var command = isWin
+    ? 'echo.' + input.replace(/[<>]/g, '^^^$&') + ' | node bin/cli.js ' + args
+    : 'echo "' + input.replace(/"/g, '\\"') + '" | node bin/cli.js ' + args;
+  exec(command, function callback(error, stdout, stderr) {
     expect(error).to.be.a('null');
     expect(stderr).to.equal('');
     expect(stdout).to.equal(expectedOutput + '\n');
@@ -85,7 +90,10 @@ describe('cli arguments', function() {
     var expectedTxt = fs.readFileSync('test/test.txt', 'utf8');
 
     function runWithArgs(args, callback) {
-      exec('cat test/test.html | node bin/cli.js ' + args, callback);
+      var command = isWin
+        ? 'node bin/cli.js ' + args + ' < test/test.html'
+        : 'cat test/test.html | node bin/cli.js ' + args;
+      exec(command, callback);
     }
 
     runWithArgs('--tables=#invoice,.address', function callback(error, stdout, stderr) {
