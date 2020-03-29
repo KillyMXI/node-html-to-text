@@ -1,6 +1,6 @@
 {
   "name": "@mxiii/html-to-text",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "Advanced html to plain text converter",
   "main": "index.js",
   "scripts": {
@@ -13,11 +13,11 @@
     "name": "Malte Legenhausen",
     "email": "legenhausen@werk85.de"
   },
-  "homepage": "https://github.com/werk85/node-html-to-text",
+  "homepage": "https://github.com/KillyMXI/node-html-to-text",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/werk85/node-html-to-text.git"
+    "url": "git://github.com/KillyMXI/node-html-to-text.git"
   },
   "bugs": {
     "url": "https://github.com/werk85/node-html-to-text/issues"

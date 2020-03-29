@@ -1,6 +1,6 @@
 # Changelog
 
-## (Fork) Version 5.2.1
+## (Fork) Version 5.2.2
 
 * Updated outdated dependencies
 * Replaced istanbul with nyc

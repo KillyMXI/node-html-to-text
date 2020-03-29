@@ -8,14 +8,14 @@ This fork is made as a temporary measure to include security and formatting fixe
 
 This repo and NPM package:
 
-* <https://github.com/KillyMXI/node-html-to-text>
-* <https://www.npmjs.com/package/@mxiii/html-to-text>
+* [https://github.com/KillyMXI/node-html-to-text](github.com/KillyMXI/node-html-to-text)
+* [https://www.npmjs.com/package/@mxiii/html-to-text](https://www.npmjs.com/package/@mxiii/html-to-text)
 * `npm install @mxiii/html-to-text`
 
 Original repo and NPM package:
 
-* <https://github.com/werk85/node-html-to-text>
-* <https://www.npmjs.com/package/html-to-text>
+* [https://github.com/werk85/node-html-to-text](https://github.com/werk85/node-html-to-text)
+* [https://www.npmjs.com/package/html-to-text](https://www.npmjs.com/package/html-to-text)
 * `npm install html-to-text`
 
 In case original package will come back to life - this one will be deprecated.
