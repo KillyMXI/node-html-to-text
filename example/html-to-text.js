@@ -1,4 +1,5 @@
 var path = require('path');
+var fs = require('fs');
 
 var htmlToText = require('../lib/html-to-text');
 
@@ -10,9 +11,14 @@ console.log(text);
 console.log();
 
 console.log('fromFile:');
-htmlToText.fromFile(path.join(__dirname, 'test.html'), {
-  tables: ['#invoice', '.address']
-}, function(err, text) {
-  if (err) return console.error(err);
-  console.log(text);
+fs.readFile(path.join(__dirname, 'test.html'), 'utf8', function(err, html) {
+  if (err) {
+    console.log(err);
+  } else {
+    var options = {
+      tables: ['#invoice', '.address']
+    };
+    var text = htmlToText.fromString(html, options);
+    console.log(text);
+  }
 });
