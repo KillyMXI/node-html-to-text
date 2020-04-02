@@ -1,5 +1,10 @@
 # Changelog
 
+## (Fork) Version 5.2.3
+
+* Enabled nyc coverage reports
+* Fixed example
+
 ## (Fork) Version 5.2.2
 
 * Updated outdated dependencies

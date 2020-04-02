@@ -1,6 +1,6 @@
 {
   "name": "@mxiii/html-to-text",
-  "version": "5.2.2",
+  "version": "5.2.3",
   "description": "Advanced html to plain text converter",
   "main": "index.js",
   "scripts": {
