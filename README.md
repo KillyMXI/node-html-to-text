@@ -18,7 +18,7 @@ Original repo and NPM package:
 * [https://www.npmjs.com/package/html-to-text](https://www.npmjs.com/package/html-to-text)
 * `npm install html-to-text`
 
-In case original package will come back to life - this one will be deprecated.
+The work is going on in the original repo to bring the next major version. This fork will be deprecated after that will be shipped.
 
 Below is untouched original readme.
 

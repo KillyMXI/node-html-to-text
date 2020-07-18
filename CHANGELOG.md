@@ -1,5 +1,10 @@
 # Changelog
 
+## (Fork) Version 5.2.4
+
+* Dependency update - lodash
+* Minor readme update
+
 ## (Fork) Version 5.2.3
 
 * Enabled nyc coverage reports

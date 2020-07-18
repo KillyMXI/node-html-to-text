@@ -1,6 +1,6 @@
 {
   "name": "@mxiii/html-to-text",
-  "version": "5.2.3",
+  "version": "5.2.4",
   "description": "Advanced html to plain text converter",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "he": "^1.2.0",
     "htmlparser2": "^4.1.0",
     "minimist": "^1.2.5",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "keywords": [
     "html",
